@@ -1,0 +1,73 @@
+body {
+    background: rgb(213, 206, 243);
+}
+nav {
+    background: rgb(206, 146, 218);
+    padding: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.tarjeta {
+    border: 1px solid #f4d0ec;
+    color: rgb(48, 49, 50);
+    background: rgb(217, 164, 232);
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    min-width: 0;
+
+}
+
+
+.contenedor-tarjeta {
+    border: 3px solid #f4d0ec;
+    color: rgb(48, 49, 50);
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 15px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    display: flex;
+    gap: 10px;    
+}
+
+.elianis {
+    height: 250px;
+}
+
+.elianis2 {
+    height: 250px;
+}
+
+.elianis3 {
+    
+    height: 250px;
+}
+
